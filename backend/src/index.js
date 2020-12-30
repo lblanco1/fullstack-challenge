@@ -67,21 +67,6 @@ app.post('/user', (req, res) => {
             message: "Usuario caadastrado com sucesso!"
         });
     });
-
-
-    // var db = require('../db');
-    // var Customer = db.Mongoose.model('customers', db.CustomerSchema, 'customer');
-    // var newcustomer = new Customer({ name: req.body.name, lastName: req.body.email, participation: req.body.participation });
-    // newcustomer.save(function (err) {
-    //     if(err) {
-    //         res.status(500).json({ error: err.message });
-    //         res.end();
-    //         return;
-    //     }
-    //     res.json(newcustomer);
-    //     res.end();
-    // })
-    
 });
 
 // edita um cadastro
