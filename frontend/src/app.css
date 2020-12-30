@@ -1,0 +1,42 @@
+#table {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 600px;
+
+}
+
+.title {
+    margin-top: 30px;
+   text-align: center;
+}
+
+.tab {
+    display: table-cell;
+    float: left;
+}
+
+.app{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.form {
+    margin-left: 22%;
+    margin-top: 30px;
+}
+
+.btn {
+    border-radius: 2px;
+    border: 2px double;
+    background-color: #37bbe4 !important;
+}
+
+.navbar {
+    height: 170px;
+    width: 110%;
+    background-color: #37bbe4;
+}
+
+.center {
+    text-align: center;
+}
